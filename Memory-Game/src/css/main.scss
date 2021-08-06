@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", "sans-serif";
+  //background-image: url("https://mcdn.wallpapersafari.com/medium/5/12/GIcmeO.jpg");
+  background-color: rgba(3,45,95,255);
+
+  background-size: auto;
+  overflow: hidden;
+}
+
+canvas{
+  display: inline;
+  width:50%;
+  height:70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.progress {
+  position: fixed;
+  top:0;
+  left:0;
+  background: darkgreen;
+  width:0;
+  height: 3px;
+}
