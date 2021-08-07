@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", "sans-serif";
+  overflow: hidden;
+  background-size: auto;
+  background-color: black;
+}
+
+canvas {
+  display: inline;
+  width: 1024;
+  height: 760;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: darkgreen;
+  width: 0;
+  height: 3px;
+}
